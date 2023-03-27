@@ -1,0 +1,53 @@
+.header-card {
+    background: #FAFAFA;
+    border-radius: 16px;
+}
+
+.text-purple {
+    color: #686FA6;
+}
+
+.container-icon-form {
+    width: 36px;
+    height: 36px;
+    background-color: #030F6B;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none !important;
+    border-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+*:focus {
+    outline: none !important;
+    border-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.form-search {
+    border: 0px solid transparent;
+}
+
+.container-search {
+    border: 1px solid #EFF0F2;
+    border-radius: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.form-drop {
+    border-radius: 8px !important;
+}
+
+.container-form-drop {
+    border-bottom: 1px solid #EFF0F2;
+}
