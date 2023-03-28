@@ -84,7 +84,7 @@
             </div>
 
             <div class="row mb-4">
-                <div class="col-12 mt-4">
+                <div class="col-12 mt-4" data-toggle="modal" data-target="#exampleModal">
                     <div class="card-list-style-1 d-xl-flex d-lg-flex d-md-block d-sm-block d-block align-items-center">
                         <div class="container-box-initial d-flex justify-content-center align-items-center mr-3">
                             <h2>PKPP</h2>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 mt-4">
+                <div class="col-12 mt-4" data-toggle="modal" data-target="#exampleModal">
                     <div class="card-list-style-1 d-xl-flex d-lg-flex d-md-block d-sm-block d-block align-items-center">
                         <div class="container-box-initial d-flex justify-content-center align-items-center mr-3">
                             <h2>PKPP</h2>
@@ -144,7 +144,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 mt-4">
+                <div class="col-12 mt-4" data-toggle="modal" data-target="#exampleModal">
                     <div class="card-list-style-1 d-xl-flex d-lg-flex d-md-block d-sm-block d-block align-items-center">
                         <div class="container-box-initial d-flex justify-content-center align-items-center mr-3">
                             <h2>PKPP</h2>
@@ -174,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 mt-4">
+                <div class="col-12 mt-4" data-toggle="modal" data-target="#exampleModal">
                     <div class="card-list-style-1 d-xl-flex d-lg-flex d-md-block d-sm-block d-block align-items-center">
                         <div class="container-box-initial d-flex justify-content-center align-items-center mr-3">
                             <h2>PKPP</h2>
@@ -207,6 +207,84 @@
             </div>
         </div>
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        Detail Progres Paket Pekerjaan
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fi fi-rr-cross-circle text-black"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-list-style-3 d-xl-flex d-lg-flex d-md-block d-sm-block d-block align-items-center">
+                        <div
+                            class="container-box-initial-2 d-flex justify-content-center align-items-center mr-3 flex-shrink">
+                            <h4>PKPP</h4>
+                        </div>
+                        <div class="d-flex flex-column flex-fill">
+                            <h5 class="text-black m-0 p-0 mt-xl-0 mt-lg-0 mt-md-3 mt-sm-3 mt-3">DINAS
+                                PERUMAHAN KAWASAN PERMUKIMANDAN PERTANAHAN</h5>
+                            <table class="table-in-dialog mt-2">
+                                <tr>
+                                    <td class="text-black-50">Tanggal Mulai:</td>
+                                    <td class="font-weight-bold">01-01-2023</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-black-50">Tanggal Akhir:</td>
+                                    <td class="font-weight-bold">01-03-2023</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="container-table-in-dialog mt-3 p-3">
+                        <table class="table-in-dialog mt-2">
+                            <tr>
+                                <td class="text-black-50">SUPD:</td>
+                                <td class="font-weight-bold">Dinas Pekerjaan</td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">Penyedia:</td>
+                                <td class="font-weight-bold">PT. Cemara Jakon Sumedang</td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">Tempat Pengerjaan:</td>
+                                <td class="font-weight-bold">Pembuatan ruang mentor</td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">Pagu:</td>
+                                <td class="font-weight-bold">Rp 20.000.000</td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">HPS:</td>
+                                <td class="font-weight-bold">Rp 98.000.000</td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">Nilai Kontrak:</td>
+                                <td class="font-weight-bold">Rp 98.000.000</td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">Nilai Kinerja:</td>
+                                <td class="font-weight-bold">72</td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">SKP:</td>
+                                <td class="font-weight-bold">-</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

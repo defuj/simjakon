@@ -72,11 +72,24 @@ input:focus {
     padding: 16px 24px 16px 24px;
 }
 
+.card-list-style-3 {}
+
 .container-box-initial {
     width: 120px;
     height: 120px;
     background: #F3F5FD;
     border-radius: 8px;
+}
+
+.container-box-initial-2 {
+    min-width: 120px;
+    height: 120px;
+    background: #F3F5FD;
+    border-radius: 8px;
+}
+
+.container-box-initial-2 h4 {
+    color: #030F6B;
 }
 
 .container-box-initial h2 {
@@ -123,4 +136,35 @@ input:focus {
     margin-right: 16px;
     font-size: 24px;
     cursor: pointer;
+}
+
+/* custom dialog */
+.modal-content {
+    border-radius: 16px !important;
+    border: 0px solid transparent !important;
+}
+
+.modal-header {
+    border-bottom: 0px solid transparent !important;
+}
+
+.modal-footer {
+    border-top: 0px solid transparent !important;
+}
+
+.table-in-dialog {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px !important;
+}
+
+table.table-in-dialog tr td {
+    border: none;
+    font-size: 16px !important;
+}
+
+.container-table-in-dialog {
+    background: #FAFAFA;
+    border-radius: 8px;
 }
