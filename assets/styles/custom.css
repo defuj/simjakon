@@ -121,6 +121,10 @@ input:focus {
     font-weight: 600;
 }
 
+.btn-detail i {
+    font-size: 14px;
+}
+
 .btn-detail:hover {
     background: #01041B;
     color: white;
