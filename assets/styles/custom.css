@@ -172,3 +172,34 @@ table.table-in-dialog tr td {
     background: #FAFAFA;
     border-radius: 8px;
 }
+
+.shimmer {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%) !important;
+    background-repeat: no-repeat !important;
+    display: inline-block;
+    position: relative;
+    background-size: cover !important;
+    min-width: 100px;
+    /* Hide the text. */
+    text-indent: -9999px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 16px;
+
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes placeholderShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}
