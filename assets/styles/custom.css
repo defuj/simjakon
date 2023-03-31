@@ -79,6 +79,7 @@ input:focus {
     height: 120px;
     background: #F3F5FD;
     border-radius: 8px;
+    min-width: 120px;
 }
 
 .container-box-initial-2 {
@@ -86,6 +87,7 @@ input:focus {
     height: 120px;
     background: #F3F5FD;
     border-radius: 8px;
+    min-width: 120px;
 }
 
 .container-box-initial-2 h4 {
